@@ -12,36 +12,21 @@
            padding: 0;
             box-sizing: border-box;
          }
-        /* Default for larger screens */
-            body {
-              font-size: 18px;
-              margin: 20px;
-            }
-
-        /* Adjust for mobile screens */
-        @media (max-width: 768px) {
+       
+            @media (max-width: 768px) {
             body {
                 font-size: 14px;
                 margin: 10px;
                   }
 
-          .container {
-                flex-direction: column;
-                text-align: center;
-                      }
-                }
-
+         
 
         body{
-             background-image: url(./pics/rose.jpg);
+             background-image: url(rose.jpg);
              background-repeat:no-repeat;
              background-position: center;
              background-size: cover;
-            display: grid;
-              grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-              gap: 10px;
-            }
-
+           
         nav{
            height: 100px;
            display: flex; 
