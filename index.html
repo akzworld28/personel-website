@@ -12,15 +12,6 @@
            padding: 0;
             box-sizing: border-box;
          }
-       
-            @media (max-width: 600px) {
-            body {
-                font-size: 14px;
-                margin: 10px;
-                  }
-
-         
-
         body{
              background-image: url(rose.jpg);
              background-repeat:no-repeat;
@@ -215,7 +206,37 @@
             justify-content: center;
             margin-top: 20px;
     
-     }
+             }
+
+             @media screen and (max-width: 600px) {
+                body {
+                    font-size: 30pxpx;
+                    line-height:40px;
+                  }
+                .about>.text1{
+                    width: 200px;
+                    height: 200px;
+                    margin-top: 40px;
+                    font-size: 15px;
+                    color: darkred;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    }
+                 .trips{
+                    margin: 70px 10px;
+                    border: 3px solid black;
+                    padding: 10px;
+                    }
+                 .row > .card{
+                    width: 150px;
+                    border: 2px solid black;
+                    padding: 10px;
+                    box-shadow: 5px 5px 5px black;
+                    border-radius: 10px;
+                    text-align: center;
+                    }
+             }
 </style>
 </head>
 <body>
